@@ -16,4 +16,5 @@ BACKEND:
 - [ ] python manage.py runserver   
 
 FRONTEND:
+- [ ] npm install
 - [ ] Npm run dev
