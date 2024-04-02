@@ -1,0 +1,104 @@
+
+.contanier{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10%;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+.file-name {
+    position: absolute;
+    bottom: -35px;
+    left: 10px;
+    font-size: 0.85rem;
+    color: #555;
+  }
+.file-input label {
+display: block;
+position: relative;
+width: 200px;
+height: 50px;
+border-radius: 25px;
+background: linear-gradient(40deg, #ff6ec4, #7873f5);
+box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+transition: transform .2s ease-out;
+}
+  
+input:hover + label,
+input:focus + label {
+  transform: scale(1.02);
+}
+/* input:focus + label {
+    outline: 1px solid #000;
+    outline: -webkit-focus-ring-color auto 2px;
+} */
+  
+
+
+
+
+
+
+
+
+
+
+
+/* CSS */
+.button-file {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-file:hover {
+    background-color: #fff;
+  }
+  
+  .button-file:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-file {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
+  .loading{
+    display: 'flex'!important;
+    justify-content: center;
+    padding: 5%;
+  }
